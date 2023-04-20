@@ -26,6 +26,12 @@
     #define falsz false
 
     #define pozycja: Float:
+    #define klucz: KEY:
+    #define stan_gracza: PLAYER_STATE:
+    #define wybierz_obiekt: SELECT_OBJECT:
+    #define edytuj_odpowiedz: EDIT_RESPONSE:
+    #define klinij_zrodlo: CLICK_SOURCE:
+    #define rodzaj_uderzenia_kula: BULLET_HIT_TYPE:
     #define plik: File
 
     //parametry funkcji
@@ -35,6 +41,7 @@
     #define idzabojcy killerid
     #define idpojazdu vehicleid
     #define jest_pasazerem ispassenger
+
 
     #define NIEPRAWIDLOWE_ID_GRACZA INVALID_PLAYER_ID
 

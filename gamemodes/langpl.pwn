@@ -101,12 +101,12 @@ publiczny OnPlayerUpdate(idgracza)
 	zwroc prawda;
 }
 
-publiczny OnPlayerKeyStateChange(idgracza, KEY:newkeys, KEY:oldkeys)
+publiczny OnPlayerKeyStateChange(idgracza, klucz:newkeys, klucz:oldkeys)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerStateChange(idgracza, PLAYER_STATE:newstate, PLAYER_STATE:oldstate)
+publiczny OnPlayerStateChange(idgracza, stan_gracza:newstate, stan_gracza:oldstate)
 {
 	zwroc prawda;
 }
@@ -216,17 +216,17 @@ publiczny OnRconCommand(cmd[])
 	zwroc falsz;
 }
 
-publiczny OnPlayerSelectObject(idgracza, SELECT_OBJECT:type, objectid, modelid, Float:fX, Float:fY, Float:fZ)
+publiczny OnPlayerSelectObject(idgracza, wybierz_obiekt:type, objectid, modelid, pozycja:fX, pozycja:fY, pozycja:fZ)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerEditObject(idgracza, playerobject, objectid, EDIT_RESPONSE:response, Float:fX, Float:fY, Float:fZ, Float:rotationX, Float:rotationY, Float:rotationZ)
+publiczny OnPlayerEditObject(idgracza, playerobject, objectid, edytuj_odpowiedz:response, pozycja:fX, pozycja:fY, pozycja:fZ, pozycja:rotationX, pozycja:rotationY, pozycja:rotationZ)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerEditAttachedObject(idgracza, EDIT_RESPONSE:response, index, modelid, boneid, Float:fOffsetX, Float:fOffsetY, Float:fOffsetZ, Float:rotationX, Float:rotationY, Float:rotationZ, Float:scaleX, Float:scaleY, Float:scaleZ)
+publiczny OnPlayerEditAttachedObject(idgracza, edytuj_odpowiedz:response, index, modelid, boneid, pozycja:fOffsetX, pozycja:fOffsetY, pozycja:fOffsetZ, pozycja:rotationX, pozycja:rotationY, pozycja:rotationZ, pozycja:scaleX, pozycja:scaleY, pozycja:scaleZ)
 {
 	zwroc prawda;
 }
@@ -303,17 +303,17 @@ publiczny otrzymanie_obrazen_przez_gracza(idgracza, issuerid, pozycja:amount, we
 }
 
 
-publiczny OnPlayerGiveDamage(idgracza, damagedid, Float:amount, weaponid, bodypart)
+publiczny OnPlayerGiveDamage(idgracza, damagedid, pozycja:amount, weaponid, bodypart)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerClickPlayer(idgracza, clickedplayerid, CLICK_SOURCE:source)
+publiczny OnPlayerClickPlayer(idgracza, clickedplayerid, klinij_zrodlo:source)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerWeaponShot(idgracza, weaponid, BULLET_HIT_TYPE:hittype, hitid, Float:fX, Float:fY, Float:fZ)
+publiczny OnPlayerWeaponShot(idgracza, weaponid, rodzaj_uderzenia_kula:hittype, hitid, pozycja:fX, pozycja:fY, pozycja:fZ)
 {
 	zwroc prawda;
 }
@@ -323,8 +323,9 @@ publiczny OnScriptCash(idgracza, amount, source)
 	zwroc prawda;
 }
 
-publiczny OnPlayerClickMap(idgracza, Float:fX, Float:fY, Float:fZ)
+publiczny OnPlayerClickMap(idgracza, pozycja:fX, pozycja:fY, pozycja:fZ)
 {
+	SetPlayerPosFindZ(idgracza, fX, fY, fZ);
 	zwroc prawda;
 }
 
@@ -393,7 +394,7 @@ publiczny OnVehicleDamageStatusUpdate(vehicleid, idgracza)
 	zwroc prawda;
 }
 
-publiczny OnUnoccupiedVehicleUpdate(vehicleid, idgracza, passenger_seat, Float:new_x, Float:new_y, Float:new_z, Float:vel_x, Float:vel_y, Float:vel_z)
+publiczny OnUnoccupiedVehicleUpdate(vehicleid, idgracza, passenger_seat, pozycja:new_x, pozycja:new_y, pozycja:new_z, pozycja:vel_x, pozycja:vel_y, pozycja:vel_z)
 {
 	zwroc prawda;
 }
