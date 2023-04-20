@@ -211,11 +211,5 @@
     #define dolacz_3dnapisdo_pojazdu       	Attach3DTextLabelToVehicle
     #define dolacz_kameredo_obiektu      	AttachCameraToObject
     #define dolacz_kameredo_akasoria	AttachCameraToPlayerObject
-    #define fd           AttachObjectToObject
-    #define UnirObjetoAJugador          AttachObjectToPlayer
-    #define fd           	AttachObjectToVehicle
-    #define fd	AttachPlayerObjectToPlayer
-    #define fd		AttachPlayerObjectToVehicle
-    #define fd           AttachTrailerToVehicle	
     //------------------------------------------------------------------------------
 #endif
