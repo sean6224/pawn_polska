@@ -281,10 +281,27 @@ publiczny OnPlayerStreamOut(idgracza, forplayerid)
 	zwroc prawda;
 }
 
-publiczny OnPlayerTakeDamage(idgracza, issuerid, Float:amount, weaponid, bodypart)
+publiczny otrzymanie_obrazen_przez_gracza(idgracza, issuerid, Float:amount, WEAPON:weaponid, bodypart)
 {
+    if (issuerid != INVALID_PLAYER_ID) // If not self-inflicted
+    {
+        new
+            infoString[128],
+            weaponName[24],
+            victimName[MAX_PLAYER_NAME],
+            attackerName[MAX_PLAYER_NAME];
+
+        GetPlayerName(playerid, victimName, sizeof (victimName));
+        GetPlayerName(issuerid, attackerName, sizeof (attackerName));
+
+        GetWeaponName(weaponid, weaponName, sizeof (weaponName));
+
+        format(infoString, sizeof(infoString), "%s has made %.0f damage to %s, weapon: %s, bodypart: %d", attackerName, amount, victimName, weaponName, bodypart);
+        SendClientMessageToAll(-1, infoString);
+    }
 	zwroc prawda;
 }
+
 
 publiczny OnPlayerGiveDamage(idgracza, damagedid, Float:amount, weaponid, bodypart)
 {

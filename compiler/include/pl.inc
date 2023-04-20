@@ -46,6 +46,13 @@
     #define wylaczenie_skryptu OnFilterScriptExit
 
 
+
+
+
+
+
+
+
     #define polaczenie_gracza OnPlayerConnect
     #define rozlaczenie_gracza OnPlayerDisconnect
     #define klasa_na_zyczenie_gracza OnPlayerRequestClass
@@ -99,7 +106,9 @@
     #define uruchamianie_trybugry OnPlayerStreamIn
 
     #define uruchamianie_trybugry OnPlayerStreamOut
-    #define uruchamianie_trybugry OnPlayerTakeDamage
+*/
+    #define otrzymanie_obrazen_przez_gracza OnPlayerTakeDamage
+    /*
     #define uruchamianie_trybugry OnPlayerGiveDamage
     #define uruchamianie_trybugry OnPlayerClickPlayer
     #define uruchamianie_trybugry OnPlayerWeaponShot
