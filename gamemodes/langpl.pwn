@@ -15,7 +15,7 @@ glowny()
         printf("test if %d", id);
     }
 }
-
+x
 publiczny uruchamianie_trybugry()
 {
 	SetGameModeText("My first open.mp gamemode!");
@@ -23,6 +23,9 @@ publiczny uruchamianie_trybugry()
 	AddStaticVehicle(522, 2493.7583, -1683.6482, 12.9099, 270.8069, -1, -1);
 	zwroc prawda;
 }
+
+  git config --global user.email "kenny6224@protonmail.com"
+  git config --global user.name "sean"
 
 publiczny wylaczenie_trybugry()
 {
