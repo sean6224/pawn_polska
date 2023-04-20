@@ -24,9 +24,6 @@ publiczny uruchamianie_trybugry()
 	zwroc prawda;
 }
 
-  git config --global user.email "kenny6224@protonmail.com"
-  git config --global user.name "sean"
-
 publiczny wylaczenie_trybugry()
 {
 	zwroc prawda;
