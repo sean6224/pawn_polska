@@ -15,7 +15,7 @@ glowny()
         printf("test if %d", id);
     }
 }
-x
+
 publiczny uruchamianie_trybugry()
 {
 	SetGameModeText("My first open.mp gamemode!");

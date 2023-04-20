@@ -1,16 +1,16 @@
 /*
-    INCLUDE zosta³ stworzony dla spo³ecznoœci polskiej.
+    INCLUDE zostaï¿½ stworzony dla spoï¿½ecznoï¿½ci polskiej.
     Wersja: 0.0.1
     Autor: azzy
     GitHub: NULL
     
-    Zasada dzia³ania include:
-        Zasada jest prosta zmienia sk³adnie z jêzyka angielskiego na polsk¹.
+    Zasada dziaï¿½ania include:
+        Zasada jest prosta zmienia skï¿½adnie z jï¿½zyka angielskiego na polskï¿½.
 */
 
 
 /*
-    _INC_TAG - jeœli chcesz u¿ywaæ tagów to ustaw w swoim trybie gry przed #include <pl> tak ma wygl¹daæ:
+    _INC_TAG - jeï¿½li chcesz uï¿½ywaï¿½ tagï¿½w to ustaw w swoim trybie gry przed #include <pl> tak ma wyglï¿½daï¿½:
     #define _INC_TAG
     #include <pl>
 */
@@ -57,17 +57,69 @@
     #define przy_smierci_pojazdu OnVehicleDeath
 
     /*
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
-    #define uruchamianie_trybugry() OnGameModeInit()
+    #define uruchamianie_trybugry OnPlayerRequestSpawn
+    #define uruchamianie_trybugry OnPlayerCommandText
+    #define uruchamianie_trybugry OnPlayerText
+    #define uruchamianie_trybugry OnPlayerUpdate
+    #define uruchamianie_trybugry OnPlayerKeyStateChange
+    #define uruchamianie_trybugry OnPlayerStateChange
+    #define uruchamianie_trybugry OnPlayerEnterCheckpoint
+    #define uruchamianie_trybugry OnPlayerLeaveCheckpoint
+    #define uruchamianie_trybugry OnPlayerEnterRaceCheckpoint
+    #define uruchamianie_trybugry OnPlayerLeaveRaceCheckpoint
+   
+    #define uruchamianie_trybugry OnPlayerGiveDamageActor
+    #define uruchamianie_trybugry OnActorStreamIn
+    #define uruchamianie_trybugry OnActorStreamOut
+    #define uruchamianie_trybugry OnDialogResponse
+    #define uruchamianie_trybugry OnPlayerEnterGangZone
+    #define uruchamianie_trybugry OnPlayerLeaveGangZone
+    #define uruchamianie_trybugry OnPlayerEnterPlayerGangZone
+    #define uruchamianie_trybugry OnPlayerLeavePlayerGangZone
+    #define uruchamianie_trybugry OnPlayerClickGangZone
+    #define uruchamianie_trybugry OnPlayerClickPlayerGangZone
+    #define uruchamianie_trybugry OnPlayerSelectedMenuRow
+    #define uruchamianie_trybugry OnPlayerExitedMenu
+    #define uruchamianie_trybugry OnClientCheckResponse
+    #define uruchamianie_trybugry OnRconLoginAttempt
+    #define uruchamianie_trybugry OnPlayerFinishedDownloading
+    #define uruchamianie_trybugry OnPlayerRequestDownload
+    #define uruchamianie_trybugry OnRconCommand
+    #define uruchamianie_trybugry OnPlayerSelectObject
+    #define uruchamianie_trybugry OnPlayerEditObject
+    #define uruchamianie_trybugry OnPlayerEditAttachedObject
+    #define uruchamianie_trybugry OnObjectMoved
+    #define uruchamianie_trybugry OnPlayerObjectMoved
+    #define uruchamianie_trybugry OnPlayerPickUpPickup
+    #define uruchamianie_trybugry OnPlayerPickUpPlayerPickup
+    #define uruchamianie_trybugry OnPickupStreamIn
+    #define uruchamianie_trybugry OnPickupStreamOut
+    #define uruchamianie_trybugry OnPlayerPickupStreamIn
+    #define uruchamianie_trybugry OnPlayerPickupStreamOut
+    #define uruchamianie_trybugry OnPlayerStreamIn
+
+    #define uruchamianie_trybugry OnPlayerStreamOut
+    #define uruchamianie_trybugry OnPlayerTakeDamage
+    #define uruchamianie_trybugry OnPlayerGiveDamage
+    #define uruchamianie_trybugry OnPlayerClickPlayer
+    #define uruchamianie_trybugry OnPlayerWeaponShot
+    #define uruchamianie_trybugry OnScriptCash
+    #define uruchamianie_trybugry OnPlayerClickMap
+    #define uruchamianie_trybugry OnIncomingConnection
+    #define uruchamianie_trybugry OnPlayerInteriorChange
+    #define uruchamianie_trybugry OnPlayerClickTextDraw
+    #define uruchamianie_trybugry OnPlayerClickPlayerTextDraw
+    #define uruchamianie_trybugry OnTrailerUpdate
+    #define uruchamianie_trybugry OnVehicleSirenStateChange
+    #define uruchamianie_trybugry OnVehicleStreamIn
+    #define uruchamianie_trybugry OnVehicleStreamOut
+    #define uruchamianie_trybugry OnVehicleMod
+    #define uruchamianie_trybugry OnEnterExitModShop
+    #define uruchamianie_trybugry OnVehiclePaintjob
+    #define uruchamianie_trybugry OnVehicleRespray
+    #define uruchamianie_trybugry OnVehicleDamageStatusUpdate
+    #define uruchamianie_trybugry OnUnoccupiedVehicleUpdate
+
     */
 
 
