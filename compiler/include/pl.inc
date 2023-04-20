@@ -2,7 +2,7 @@
     INCLUDE zosta� stworzony dla spo�eczno�ci polskiej.
     Wersja: 0.0.1
     Autor: azzy
-    GitHub: NULL
+    GitHub: https://github.com/sean6224/pawn_polska
     
     Zasada dzia�ania include:
         Zasada jest prosta zmienia sk�adnie z j�zyka angielskiego na polsk�.
