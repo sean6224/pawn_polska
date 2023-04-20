@@ -283,9 +283,9 @@ publiczny OnPlayerStreamOut(idgracza, forplayerid)
 
 publiczny otrzymanie_obrazen_przez_gracza(idgracza, issuerid, pozycja:amount, weaponid, bodypart)
 {
-    if (issuerid != INVALID_PLAYER_ID) // If not self-inflicted
+    if(issuerid != NIEPRAWIDLOWE_ID_GRACZA) // If not self-inflicted
     {
-        new
+        nowy
             infoString[128],
             weaponName[24],
             victimName[MAX_PLAYER_NAME],

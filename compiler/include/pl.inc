@@ -36,6 +36,8 @@
     #define idpojazdu vehicleid
     #define jest_pasazerem ispassenger
 
+    #define NIEPRAWIDLOWE_ID_GRACZA INVALID_PLAYER_ID
+
     //public main_scripts
     #define glowny main
     #define uruchamianie_trybugry OnGameModeInit
