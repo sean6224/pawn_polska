@@ -281,7 +281,7 @@ publiczny OnPlayerStreamOut(idgracza, forplayerid)
 	zwroc prawda;
 }
 
-publiczny otrzymanie_obrazen_przez_gracza(idgracza, issuerid, Float:amount, weaponid, bodypart)
+publiczny otrzymanie_obrazen_przez_gracza(idgracza, issuerid, pozycja:amount, weaponid, bodypart)
 {
     if (issuerid != INVALID_PLAYER_ID) // If not self-inflicted
     {

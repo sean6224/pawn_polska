@@ -25,7 +25,7 @@
     #define prawda true
     #define falsz false
 
-    #define pozycja: Float
+    #define pozycja: Float:
     #define plik: File
 
     //parametry funkcji
