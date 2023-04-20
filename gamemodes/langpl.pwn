@@ -281,7 +281,7 @@ publiczny OnPlayerStreamOut(idgracza, forplayerid)
 	zwroc prawda;
 }
 
-publiczny otrzymanie_obrazen_przez_gracza(idgracza, issuerid, Float:amount, WEAPON:weaponid, bodypart)
+publiczny otrzymanie_obrazen_przez_gracza(idgracza, issuerid, Float:amount, weaponid, bodypart)
 {
     if (issuerid != INVALID_PLAYER_ID) // If not self-inflicted
     {
@@ -294,7 +294,7 @@ publiczny otrzymanie_obrazen_przez_gracza(idgracza, issuerid, Float:amount, WEAP
         GetPlayerName(playerid, victimName, sizeof (victimName));
         GetPlayerName(issuerid, attackerName, sizeof (attackerName));
 
-        GetWeaponName(weaponid, weaponName, sizeof (weaponName));
+        GetWeaponName(WEAPON:weaponid, weaponName, sizeof (weaponName));
 
         format(infoString, sizeof(infoString), "%s has made %.0f damage to %s, weapon: %s, bodypart: %d", attackerName, amount, victimName, weaponName, bodypart);
         SendClientMessageToAll(-1, infoString);
