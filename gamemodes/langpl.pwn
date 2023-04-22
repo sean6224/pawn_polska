@@ -101,7 +101,7 @@ publiczny OnPlayerUpdate(idgracza)
 	zwroc prawda;
 }
 
-publiczny OnPlayerKeyStateChange(idgracza, klucz:newkeys, klucz:oldkeys)
+publiczny OnPlayerKeyStateChange(idgracza, klucz:noweklucze, klucz:stareklucze)
 {
 	zwroc prawda;
 }

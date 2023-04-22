@@ -29,7 +29,11 @@
     #define falsz false
 
     #define pozycja: Float:
+
     #define klucz: KEY:
+    #define noweklucze newkeys
+    #define stareklucze oldkeys
+
     #define stan_gracza: PLAYER_STATE:
     #define wybierz_obiekt: SELECT_OBJECT:
     #define edytuj_odpowiedz: EDIT_RESPONSE:
