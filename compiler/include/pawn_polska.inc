@@ -21,6 +21,9 @@
 
     #define nowy new
     #define jesli if
+
+    #define w przeciwnym razie else
+    
     #define zwroc return
     #define prawda true
     #define falsz false

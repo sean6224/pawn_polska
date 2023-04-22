@@ -3,7 +3,7 @@
 #define _INC_TAG
 //#define _INC_SKROT
 
-#include <pl>
+#include <pawn_polska>
 
 glowny()
 {
