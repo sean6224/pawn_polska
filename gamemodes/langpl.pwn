@@ -7,13 +7,15 @@
 
 glowny()
 {
-    print("include dla spo�eczno�ci");
+    print("include dla społeczności");
 
     nowy id = 1;
     jesli(id == 1)
     {
-        printf("test if %d", id);
+        wydrukujf("test if %d", id);
     }
+	w_przeciwnym_razie jesli(id == 2)
+		wydrukujf("test if %d", id);
 }
 
 publiczny uruchamianie_trybugry()
@@ -131,17 +133,17 @@ publiczny OnPlayerLeaveRaceCheckpoint(idgracza)
 	zwroc prawda;
 }
 
-publiczny OnPlayerGiveDamageActor(idgracza, damaged_actorid, Float:amount, weaponid, bodypart)
+publiczny OnPlayerGiveDamageActor(idgracza, damaged_actorid, pozycja:amount, weaponid, bodypart)
 {
 	zwroc prawda;
 }
 
-publiczny OnActorStreamIn(actorid, forplayerid)
+publiczny OnActorStreamIn(actorid, dla_idgracza)
 {
 	zwroc prawda;
 }
 
-publiczny OnActorStreamOut(actorid, forplayerid)
+publiczny OnActorStreamOut(actorid, dla_idgracza)
 {
 	zwroc prawda;
 }
@@ -271,12 +273,12 @@ publiczny OnPlayerPickupStreamOut(pickupid, idgracza)
 	zwroc prawda;
 }
 
-publiczny OnPlayerStreamIn(idgracza, forplayerid)
+publiczny OnPlayerStreamIn(idgracza, dla_idgracza)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerStreamOut(idgracza, forplayerid)
+publiczny OnPlayerStreamOut(idgracza, dla_idgracza)
 {
 	zwroc prawda;
 }
@@ -359,12 +361,12 @@ publiczny OnVehicleSirenStateChange(idgracza, vehicleid, newstate)
 	zwroc prawda;
 }
 
-publiczny OnVehicleStreamIn(vehicleid, forplayerid)
+publiczny OnVehicleStreamIn(vehicleid, dla_idgracza)
 {
 	zwroc prawda;
 }
 
-publiczny OnVehicleStreamOut(vehicleid, forplayerid)
+publiczny OnVehicleStreamOut(vehicleid, dla_idgracza)
 {
 	zwroc prawda;
 }

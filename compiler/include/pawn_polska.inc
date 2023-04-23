@@ -22,7 +22,7 @@
     #define nowy new
     #define jesli if
 
-    #define w przeciwnym razie else
+    #define w_przeciwnym_razie else
     
     #define zwroc return
     #define prawda true
@@ -41,6 +41,8 @@
     #define rodzaj_uderzenia_kula: BULLET_HIT_TYPE:
     #define plik: File
 
+    #define dla_idgracza forplayerid
+
     //parametry funkcji
     #define idgracza playerid
     #define powod reason
@@ -49,6 +51,8 @@
     #define idpojazdu vehicleid
     #define jest_pasazerem ispassenger
 
+
+    #define wydrukujf printf
 
     #define NIEPRAWIDLOWE_ID_GRACZA INVALID_PLAYER_ID
 
@@ -61,7 +65,7 @@
     #define uruchamianie_skryptu OnFilterScriptInit
     #define wylaczenie_skryptu OnFilterScriptExit
 
-
+    
 
 
 
