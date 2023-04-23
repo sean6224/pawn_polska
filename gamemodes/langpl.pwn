@@ -81,30 +81,31 @@ publiczny przy_smierci_pojazdu(idpojazdu, idzabojcy)
 	zwroc prawda;
 }
 
-publiczny OnPlayerRequestSpawn(idgracza)
+publiczny spawn_prosba_gracza(idgracza)
 {
 	zwroc prawda;
 }
-publiczny OnPlayerCommandText(idgracza, cmdtext[])
+publiczny tekst_polecenia_gracza(idgracza, cmdtext[])
 {
 	zwroc falsz;
 }
 
-publiczny OnPlayerText(idgracza, text[])
-{
-	zwroc prawda;
-}
-publiczny OnPlayerUpdate(idgracza)
+publiczny tekst_gracza(idgracza, text[])
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerKeyStateChange(idgracza, klucz:noweklucze, klucz:stareklucze)
+publiczny aktulizacja_gracza(idgracza)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerStateChange(idgracza, stan_gracza:newstate, stan_gracza:oldstate)
+publiczny zmiana_stanu_klucza(idgracza, klucz:noweklucze, klucz:stareklucze)
+{
+	zwroc prawda;
+}
+
+publiczny zmiana_stanu(idgracza, stan_gracza:newstate, stan_gracza:oldstate)
 {
 	zwroc prawda;
 }
