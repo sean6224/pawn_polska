@@ -86,6 +86,8 @@
     #define wejdz_punkt_kontrolny_wyscigowy OnPlayerEnterRaceCheckpoint
     #define wyjdz_punkt_kontrolny_wyscigowy OnPlayerLeaveRaceCheckpoint
    
+
+   /*
     #define uruchamianie_trybugry OnPlayerGiveDamageActor
     #define uruchamianie_trybugry OnActorStreamIn
     #define uruchamianie_trybugry OnActorStreamOut
