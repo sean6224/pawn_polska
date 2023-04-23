@@ -65,14 +65,6 @@
     #define uruchamianie_skryptu OnFilterScriptInit
     #define wylaczenie_skryptu OnFilterScriptExit
 
-    
-
-
-
-
-
-
-
     #define polaczenie_gracza OnPlayerConnect
     #define rozlaczenie_gracza OnPlayerDisconnect
     #define klasa_na_zyczenie_gracza OnPlayerRequestClass

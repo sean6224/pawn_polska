@@ -7,15 +7,11 @@
 
 glowny()
 {
-    print("include dla społeczności");
-
     nowy id = 1;
     jesli(id == 1)
-    {
         wydrukujf("test if %d", id);
-    }
 	w_przeciwnym_razie jesli(id == 2)
-		wydrukujf("test if %d", id);
+		wydrukujf("test w_przeciwnym_razie %d", id);
 }
 
 publiczny uruchamianie_trybugry()
