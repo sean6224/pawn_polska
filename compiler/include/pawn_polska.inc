@@ -74,18 +74,17 @@
     #define wyjscie_pojazdu OnPlayerExitVehicle
     #define przy_odradzaniu_pojazdu OnVehicleSpawn
     #define przy_smierci_pojazdu OnVehicleDeath
-
-    
+  
     #define spawn_prosba_gracza OnPlayerRequestSpawn
     #define tekst_polecenia_gracza OnPlayerCommandText
     #define tekst_gracza OnPlayerText
     #define aktulizacja_gracza OnPlayerUpdate
     #define zmiana_stanu_klucza OnPlayerKeyStateChange
     #define zmiana_stanu OnPlayerStateChange
-    #define uruchamianie_trybugry OnPlayerEnterCheckpoint
-    #define uruchamianie_trybugry OnPlayerLeaveCheckpoint
-    #define uruchamianie_trybugry OnPlayerEnterRaceCheckpoint
-    #define uruchamianie_trybugry OnPlayerLeaveRaceCheckpoint
+    #define wejdz_punkt_kontrolny OnPlayerEnterCheckpoint
+    #define wyjdz_punkt_kontrolny OnPlayerLeaveCheckpoint
+    #define wejdz_punkt_kontrolny_wyscigowy OnPlayerEnterRaceCheckpoint
+    #define wyjdz_punkt_kontrolny_wyscigowy OnPlayerLeaveRaceCheckpoint
    
     #define uruchamianie_trybugry OnPlayerGiveDamageActor
     #define uruchamianie_trybugry OnActorStreamIn

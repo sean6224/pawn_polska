@@ -110,22 +110,22 @@ publiczny zmiana_stanu(idgracza, stan_gracza:newstate, stan_gracza:oldstate)
 	zwroc prawda;
 }
 
-publiczny OnPlayerEnterCheckpoint(idgracza)
+publiczny wejdz_punkt_kontrolny(idgracza)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerLeaveCheckpoint(idgracza)
+publiczny wyjdz_punkt_kontrolny(idgracza)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerEnterRaceCheckpoint(idgracza)
+publiczny wejdz_punkt_kontrolny_wyscigowy(idgracza)
 {
 	zwroc prawda;
 }
 
-publiczny OnPlayerLeaveRaceCheckpoint(idgracza)
+publiczny wyjdz_punkt_kontrolny_wyscigowy(idgracza)
 {
 	zwroc prawda;
 }
